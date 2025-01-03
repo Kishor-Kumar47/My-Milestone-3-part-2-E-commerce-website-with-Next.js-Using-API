@@ -9,25 +9,22 @@ import Pizza from "@/app/components/Pizza";
 import ProductList from "@/app/components/ProductList";
 import Progressor from "@/app/components/Progressor";
 import Reservation from "@/app/components/Reservation";
-import Image from "next/image";
-import Productcard from "./components/Productcard";
-
 
 export default function App() {
   return (
-  <div className="bg-gradient-to-t from-black to-gray-700 min-h-screen">
-<Navbar/>
-<Carousel/>
-<Progressor/>
-<Pizza/>
-<Banner/>
-<ProductList/>
-<Menu/>
-<Offer/>
-<Card/>
-<Reservation/>
+    <div className="bg-gradient-to-t from-black to-gray-700 min-h-screen">
+      <Navbar />
+      <Carousel />
+      <Progressor />
+      <Pizza />
+      <Banner />
+      <ProductList />
+      <Menu />
+      <Offer />
+      <Card />
+      <Reservation />
 
-<Footer/>
-  </div>
+      <Footer />
+    </div>
   );
 }
