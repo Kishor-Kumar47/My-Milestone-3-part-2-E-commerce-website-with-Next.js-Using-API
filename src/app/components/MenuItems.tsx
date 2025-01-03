@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
 import Productcard from "./Productcard";
-import { Product} from "../../pages/types";
+import { Product } from "@/lib/types";
 import Image from "next/image";
 
 

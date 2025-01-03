@@ -1,4 +1,4 @@
-import { Product } from "@/pages/types";
+import { Product } from "@/lib/types";
 import Image from "next/image";
 import React from "react";
 
